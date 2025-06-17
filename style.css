@@ -1,0 +1,76 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  color: #206661;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #66fcf1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav h1 {
+  color: #2a5a57;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 500;
+}
+
+.hero {
+  img {
+  width: 100px; /* Set the desired width */
+  height: 100px; /* Set the desired height */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fits within the circle */
+}
+  text-align: center;
+  padding: 5rem 2rem;
+  background: linear-gradient(135deg, #000000, #000000);
+}
+
+.hero span {
+  color: #2563eb;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.skills-list {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.skills-list li {
+  background: #66fcf1;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.portfolio-item {
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #000000;
+  font-size: 0.9rem;
+}
